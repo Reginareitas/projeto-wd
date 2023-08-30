@@ -1,0 +1,72 @@
+body{
+  background: url(./assets/frentedia.jpeg) no-repeat top center/cover;
+}
+
+
+body * {
+    font-family: "Inter", sans-serif;
+    color: var( --text-color);
+  }
+
+
+
+
+#profile img{
+    width: 300px;
+    margin: auto 550px;
+    padding: 10px;
+}
+    
+
+
+#profile2 img{
+  width: 400px;
+} 
+
+
+    
+
+
+
+#profile3 img{
+  padding: 20px;
+ 
+}
+
+ul li a{
+   border: 1px solid (rgba(rgba(11, 12, 14, 0.979), rgba(128, 47, 0, 0.87), rgb(229, 255, 0), alpha));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 10px;
+
+  background: rgba(rgba(255, 30, 0, 0.473), rgba(128, 87, 0, 0.877), blue, alpha);
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 2px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition:  0.2s;
+
+
+}
+
+/*pseudo-selector*/
+ul li a:hover{
+  background: rgba(253, 34, 6, 0.4);
+  border: 1.5px solid var(--text-color);
+  padding: 30px;
+}
+
+
+footer {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+}
